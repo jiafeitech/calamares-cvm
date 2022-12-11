@@ -1,0 +1,6 @@
+*
+
+!.gitignore
+!cleanup.sh
+!PKGBUILD
+!calamares/**
