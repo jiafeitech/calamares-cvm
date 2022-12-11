@@ -1,0 +1,7 @@
+*
+
+!.gitignore
+!cleanup.sh
+!*.patch
+!PKGBUILD
+!download.png
