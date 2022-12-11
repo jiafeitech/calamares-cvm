@@ -64,5 +64,5 @@ package() {
 
         # icon
         mkdir -p $pkgdir/usr/share/icons/cvm-ui-icons
-        cp download.png $pkgdir/usr/share/icons/cvm-ui-icons
+        cp $srcdir/download.png $pkgdir/usr/share/icons/cvm-ui-icons
 }
