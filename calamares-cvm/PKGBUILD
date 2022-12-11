@@ -1,4 +1,5 @@
 pkgname=calamares-cvm
+_pkgname=calamares
 pkgver=3.2.61
 pkgrel=1
 pkgdesc='Distribution-independent installer framework'
@@ -15,7 +16,7 @@ depends=('kconfig' 'kcoreaddons' 'kiconthemes' 'ki18n' 'kio' 'solid' 'yaml-cpp' 
 makedepends=('extra-cmake-modules' 'qt5-tools' 'qt5-translations' 'boost')
 
 source=(
-	"$pkgname-$pkgver.tar.gz::$url/releases/download/v$pkgver/$pkgname-$pkgver.tar.gz"
+	"$_pkgname-$pkgver.tar.gz::$url/releases/download/v$pkgver/$_pkgname-$pkgver.tar.gz"
 	"yay-support.patch"
         "desktop.patch"
         "desktop.in.patch"
