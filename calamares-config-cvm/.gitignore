@@ -3,4 +3,5 @@
 !.gitignore
 !cleanup.sh
 !PKGBUILD
+!calamares/
 !calamares/**
