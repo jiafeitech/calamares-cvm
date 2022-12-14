@@ -39,7 +39,8 @@ Presentation
         Text {
             anchors.horizontalCenter: background.horizontalCenter
             anchors.top: background.bottom
-            text: "Welcvm to Cvm UI Desktop 5.1"
+            text: "Welcvm to Cvm UI Desktop 5.1<br/>"+
+                  "An operating system made by JIΛFEI (jiafeitech)"
             wrapMode: Text.WordWrap
             width: presentation.width
             horizontalAlignment: Text.Center
@@ -47,7 +48,7 @@ Presentation
     }
 
     Slide {
-        centeredText: qsTr("Sit Back and Relax while we are installing a new product.")
+        centeredText: qsTr("Sit Back and Relax while we are installing our product.")
     }
 
     Slide {
